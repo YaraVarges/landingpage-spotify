@@ -4,11 +4,13 @@
 Desenvolvimento de uma Landing Page Responsiva em Bootstrap do Spotify. Conta com menu de navegação responsiva, seções de home, apresentação e footer. *Textos e informações fictícias.
 
 ## Tecnologias Utilizadas
-**Front-end:** HTML, CSS, Bootstrap
+**Front-end:** 
+- HTML
+- CSS
+- Bootstrap
 
 ## Demonstração
-Insira um gif ou um link de alguma demonstração
-
+![image](https://github.com/YaraVarges/landingpage-spotify/assets/62305551/c6259e46-62cc-47ee-a494-f1bd3636ec0f)
 
 ## Autores
 - [@YaraVarges](https://www.github.com/YaraVarges)
