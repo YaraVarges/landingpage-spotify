@@ -1,3 +1,7 @@
+html, body, #home {
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
 body {
     background: url(../images/capa.png), url(../images/fosco.png), linear-gradient(70deg, #4144ff, #7C26F8);
     background-attachment: fixed;
@@ -24,4 +28,89 @@ nav.navbar-transp {
     width: 1px;
     margin: 12px 15px;
     background-color: #FFF;
+}
+
+.home {
+    text-align: center;
+    color: #FFF;
+}
+
+.btn-home {
+    color: #FFF;
+    border-radius: 500px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+
+.purple {
+    background-color: #4547f1;
+}
+
+.white {
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.purple:hover {
+    background-color: #676fdd;
+    color: #FFF;
+}
+
+.white:hover {
+    background-color: #FFF;
+    color: #444444;
+}
+
+h1 {
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+#services {
+    background-color: #FFF;
+    padding: 20px 20px;
+}
+
+#services h2 {
+    color: #7C26F8;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
+
+#services h3 {
+    color: #7C26F8;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+.albuns {
+    padding: 20px;
+}
+
+#resources h2 {
+    color: #FFF;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
+
+#resources h3 {
+    color: #75c6c9;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+#resources p {
+    color: #FFF;
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .btn-home {
+    margin-bottom: 15px;
+}
 }
